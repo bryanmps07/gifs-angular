@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del /Q docs",
-    "copy:dist": "copyfiles dist/gifsapp/browser/** ./docs -f"
+    "copy:dist": "copyfiles -u 1 dist/gifsapp/browser/** ./docs -f"
   },
   "private": true,
   "dependencies": {
